@@ -1,0 +1,6 @@
+# Compiled and full files
+*/*.o
+*/*.pdf
+
+# Simulation output files
+*/*.out
