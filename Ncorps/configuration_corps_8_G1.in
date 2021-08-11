@@ -1,0 +1,33 @@
+% Parametres physiques :
+tFin             = 2e4
+nb_corps         = 3
+
+nom_corps1       = C1
+masse_corps1     = 1.498351813e10
+position1_corps1 = 0.9700436 % position x du corps 1
+position2_corps1 = -0.24308753 % position y du corps 1
+position3_corps1 = 0.466203685 % vitesse en x du corps 1
+position4_corps1 = 0.43236573 % vitesse en y du corps 1
+
+nom_corps2       = C2
+masse_corps2     = 1.498351813e10
+position1_corps2 = -0.9700436 % position x du corps 2
+position2_corps2 = 0.24308753 % position y du corps 2
+position3_corps2 = 0.466203685 % vitesse en x du corps 2
+position4_corps2 = 0.43236573 % vitesse en y du corps 2
+
+nom_corps3       = C3
+masse_corps3     = 1.498351813e10
+position1_corps3 = 0 % position x du corps 3
+position2_corps3 = 0 % position y du corps 3
+position3_corps3 = -0.93240737 % vitesse en x du corps 3
+position4_corps3 = -0.86473146 % vitesse en y du corps 3
+
+% Prevu pour n corps
+
+% Parametres numeriques :
+type_dt  = true
+precision= 1e-6
+dt       = 10
+output   = output_corps_8_G1.dat
+sampling = 1

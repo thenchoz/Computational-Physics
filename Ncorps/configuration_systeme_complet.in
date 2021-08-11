@@ -1,0 +1,96 @@
+% Parametres physiques :
+tFin             = 1e9
+nb_corps         = 12
+
+nom_corps1       = Comète
+masse_corps1     = 1e9
+position1_corps1 = 4.5442e12 % position x du corps 1
+position2_corps1 = 0 % position y du corps 1
+position3_corps1 = 0 % vitesse en x du corps 1
+position4_corps1 = 942.094 % vitesse en y du corps 1
+
+nom_corps2       = Soleil
+masse_corps2     = 1.98892e30
+position1_corps2 = -7.42483e8 % position x du corps 2
+position2_corps2 = 0 % position y du corps 2
+position3_corps2 = 0 % vitesse en x du corps 2
+position4_corps2 = -12.46 % vitesse en y du corps 2
+
+nom_corps3       = Jupiter
+masse_corps3     = 1.8986e27
+position1_corps3 = 7.77804e11 % position x du corps 3
+position2_corps3 = 0 % position y du corps 3
+position3_corps3 = 0 % vitesse en x du corps 3
+position4_corps3 = 13051 % vitesse en y du corps 3
+
+nom_corps4       = Io
+masse_corps4     = 8.93e22
+position1_corps4 = 7.78224e11 % position x du corps 4
+position2_corps4 = 0 % position y du corps 4
+position3_corps4 = 0 % vitesse en x du corps 4
+position4_corps4 = 30454.5 % vitesse en y du corps 4
+
+nom_corps5       = Callisto
+masse_corps5     = 1.075938e23
+position1_corps5 = 7.75935e11 % position x du corps 5
+position2_corps5 = 0 % position y du corps 5
+position3_corps5 = 0 % vitesse en x du corps 5
+position4_corps5 = 4786.19 % vitesse en y du corps 5
+
+nom_corps6       = Terre
+masse_corps6     = 5.9736e24
+position1_corps6 = -1.47841e11 % position x du corps 6
+position2_corps6 = 0 % position y du corps 6
+position3_corps6 = 0 % vitesse en x du corps 6
+position4_corps6 = -30289.8 % vitesse en y du corps 6
+
+nom_corps7       = Lune
+masse_corps7     = 7.3477e22
+position1_corps7 = -1.48204e11 % position x du corps 7
+position2_corps7 = 0 % position y du corps 7
+position3_corps7 = 0 % vitesse en x du corps 7
+position4_corps7 = -31365.8 % vitesse en y du corps 7
+
+nom_corps8       = Neptune
+masse_corps8     = 102.43e24
+position1_corps8 = -7.42483e8 % position x du corps 8
+position2_corps8 = -4.452940833e12 % position y du corps 8
+position3_corps8 = 5475.93 % vitesse en x du corps 8
+position4_corps8 = 0 % vitesse en y du corps 8
+
+nom_corps9       = Mercure
+masse_corps9     = 330.2e21
+position1_corps9 = -7.42483e8 % position x du corps 9
+position2_corps9 = 4.6001272e10 % position y du corps 9
+position3_corps9 = -58982.6 % vitesse en x du corps 9
+position4_corps9 = 0 % vitesse en y du corps 9
+
+nom_corps10       = Cérès
+masse_corps10     = 330.2e21
+position1_corps10 = 2.68962e11 % position x du corps 10
+position2_corps10 = -2.69704e11 % position y du corps 10
+position3_corps10 = 13657.6 % vitesse en x du corps 10
+position4_corps10 = 13657.6 % vitesse en y du corps 10
+
+nom_corps11       = Pluton
+masse_corps11     = 1.314e22
+position1_corps11 = -7.42483e8 % position x du corps 11
+position2_corps11 = 4.436824613e12 % position y du corps 11
+position3_corps11 = -6124.66 % vitesse en x du corps 11
+position4_corps11 = 0 % vitesse en y du corps 11
+
+nom_corps12       = Charon
+masse_corps12     = 1.52e21
+position1_corps12 = -7.42483e8 % position x du corps 12
+position2_corps12 = 4.436843743e12 % position y du corps 12
+position3_corps12 = -6338.77 % vitesse en x du corps 12
+position4_corps12 = 0 % vitesse en y du corps 12
+
+% Prevu pour n corps
+
+% Parametres numeriques :
+type_dt  = true
+precision= 100
+dt       = 1e5
+output   = output_systeme_complet.dat
+sampling = 500
