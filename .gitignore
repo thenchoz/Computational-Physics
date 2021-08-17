@@ -1,6 +1,13 @@
 # Compiled and full files
 */*.o
 */*.pdf
+*/*/*.pdf
 
 # Simulation output files
 */*.out
+*/*.dat
+
+# LaTeX compiled files
+*/*.log
+*/*.aux
+*/*.toc
