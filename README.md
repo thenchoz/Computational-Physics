@@ -2,7 +2,6 @@
 
 This repository contains differents exercices in computational physics field.
 
-Ncorps is the 4th exercise of the 3rd semester of bachelor, which was done with a friend.
-
-The other three exercise were done during the 6th semester of bachelor, alone.
+Computational physics I and II (CPI & CPII) are done in the 3rd and 4th semester of bachelor with a friend.
+Computational physics III (CPIII) is a lesson given during the 6th semester of bachelor, alone.
 
